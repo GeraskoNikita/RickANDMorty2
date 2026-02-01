@@ -1,6 +1,5 @@
 package com.example.rickmorty.di
 
-import androidx.navigation.fragment.navArgs
 import com.example.rickmorty.data.datasource.RickAndMortyApi
 import com.example.rickmorty.data.datasource.createHttpLoggingInterceptor
 import com.example.rickmorty.data.datasource.createOkHttpClient
@@ -13,12 +12,12 @@ import com.example.rickmorty.domain.usecases.GetCharacterByIdUseCase
 import com.example.rickmorty.domain.usecases.GetCharactersPagingUseCase
 import com.example.rickmorty.domain.usecases.GetEpisodesByIdsUseCase
 import com.example.rickmorty.presentation.characters.CharactersViewModel
-import com.example.rickmorty.presentation.detail.CharacterDetailFragmentArgs
+
 import com.example.rickmorty.presentation.detail.CharacterDetailViewModel
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module
 import retrofit2.Retrofit
-import kotlin.getValue
+
 
 
 
